@@ -1,13 +1,37 @@
 {
   "color": {
     "base": {
-      "gray": {
-        "light" : { "value": "#CCCCCC" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
+      "primary": {
+        "light" : { "value": "#E6E6FC" },
+        "midtone": { "value": "#A8A9FC" },
+        "accent": {"value": "#4A4AF4"},
+        "dim"  : { "value": "#2F2FC1" },
+        "dark"  : { "value": "#212189" }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "warning": {
+        "light" : { "value": "#FCF9E8" },
+        "midtone": { "value": "#FFE98F" },
+        "accent": {"value": "#FFCA61"},
+        "dim"  : { "value": "#E88C31" },
+        "dark"  : { "value": "#DB6414" }
+      },
+      "error": {
+        "light" : { "value": "#F7E3E2" },
+        "midtone": { "value": "#FEAA97" },
+        "accent": {"value": "#FF6D50"},
+        "dim"  : { "value": "#D34333" },
+        "dark"  : { "value": "#93342F" }
+      },
+      "success": {
+        "light" : { "value": "#E8F9EF" },
+        "midtone": { "value": "#97E8B8" },
+        "accent": {"value": "#2ABC7A"},
+        "dim"  : { "value": "#0A894C" },
+        "dark"  : { "value": "#105432" }
+      },
+
+      "black": { "value": "#101820" },
+      "white": { "value": "#FFFFFF" }
     }
   }
 }
