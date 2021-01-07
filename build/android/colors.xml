@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Thu, 07 Jan 2021 20:16:43 GMT
+-->
+<resources>
+  <color name="color_base_primary_light">#ffe6e6fc</color>
+  <color name="color_base_primary_midtone">#ffa8a9fc</color>
+  <color name="color_base_primary_accent">#ff4a4af4</color>
+  <color name="color_base_primary_dim">#ff2f2fc1</color>
+  <color name="color_base_primary_dark">#ff212189</color>
+  <color name="color_base_warning_light">#fffcf9e8</color>
+  <color name="color_base_warning_midtone">#ffffe98f</color>
+  <color name="color_base_warning_accent">#ffffca61</color>
+  <color name="color_base_warning_dim">#ffe88c31</color>
+  <color name="color_base_warning_dark">#ffdb6414</color>
+  <color name="color_base_error_light">#fff7e3e2</color>
+  <color name="color_base_error_midtone">#fffeaa97</color>
+  <color name="color_base_error_accent">#ffff6d50</color>
+  <color name="color_base_error_dim">#ffd34333</color>
+  <color name="color_base_error_dark">#ff93342f</color>
+  <color name="color_base_success_light">#ffe8f9ef</color>
+  <color name="color_base_success_midtone">#ff97e8b8</color>
+  <color name="color_base_success_accent">#ff2abc7a</color>
+  <color name="color_base_success_dim">#ff0a894c</color>
+  <color name="color_base_success_dark">#ff105432</color>
+  <color name="color_base_black">#ff101820</color>
+  <color name="color_base_white">#ffffffff</color>
+  
+</resources>

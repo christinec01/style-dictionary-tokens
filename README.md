@@ -137,13 +137,5 @@ $size-font-base: 1rem;
 @end
 ```
 
-Pretty nifty! This shows a few things happening:
-1. The build system does a deep merge of all the property JSON files defined in the `source` attribute of `config.json`. This allows you to split up the property JSON files however you want. There are 2 JSON files with `color` as the top level key, but they get merged properly.
-1. The build system resolves references to other style properties. `{size.font.medium.value}` gets resolved properly.
-1. The build system handles references to property values in other files as well as you can see in `properties/color/font.json`.
 
-Now let's make a change and see how that affects things. Open up `properties/color/base.json` and change `"#111111"` to `"#000000"`. After you make that change, save the file and re-run the build command `style-dictionary build`. Open up the build files and take a look.
-
-**Huzzah!**
-
-Now go forth and create! Take a look at all the built-in [transforms](https://amzn.github.io/style-dictionary/#/transforms?id=pre-defined-transforms) and [formats](https://amzn.github.io/style-dictionary/#/formats?id=pre-defined-formats).
+Run `yarn build` to build the tokens for web, ios, and android.
