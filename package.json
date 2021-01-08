@@ -1,8 +1,11 @@
 {
-  "name": "style-dictionary-demo",
-  "version": "1.0.0",
+  "name": "style-dictionary-demo-token",
+  "version": "0.0.2",
   "main": "index.js",
-  "repository": "git@github.com:christinec01/style-dictionary-tokens.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christinec01/style-dictionary-tokens.git"
+  },
   "author": "Justin Menestrina <jmenestr@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -13,5 +16,13 @@
     "color": "^3.1.3",
     "handlebars": "^4.7.6",
     "style-dictionary": "^2.10.2"
-  }
+  },
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "bugs": {
+    "url": "https://github.com/christinec01/style-dictionary-tokens/issues"
+  },
+  "homepage": "https://github.com/christinec01/style-dictionary-tokens#readme",
+  "keywords": [
+    "demo"
+  ]
 }
